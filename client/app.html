@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<br>
+<head>
+    <center><h1>Prediksi Nilai IPM Per Provinsi</h1></center>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+
+<form class="form">
+	<h4>Harapan Hidup (Tahun)</h4>
+    <input class="area" type="text" id="uiiniHarapanHidup" class="floatLabel" name="iniHarapanHidup">
+
+<form class="form">
+	<h5>Pengeluaran Per Kapita (Ribu Rupiah Per Orang Per Tahun)</h5>
+	<input class="area" type="text" id="uiiniPengeluaran" class="floatLabel" name="iniPengeluaran">
+
+<form class="form">
+	<h4>Rerata Lama Sekolah (Tahun)</h4>
+    <input class="area" type="text" id="uiiniLamaSekolah" class="floatLabel" name="iniLamaSekolah">
+	</form>
+
+<form class="form">
+	<h4>Harapan Lama Sekolah (Tahun)</h4>
+	<input class="area"  type="text" id="uiiniHarapanLamaSekolah" class="floatLabel" name="iniHarapanLamaSekolah">
+
+		<h4>Provinsi</h4>
+	<div>
+  <select class="location" name="" id="uiLocations">
+    <option value="" disabled="disabled" selected="selected">Pilih Provinsi</option> 
+  </select>
+</div>
+
+	<button class="submit" onclick="onClickedEstimatePrice()" type="button">Perkiraan Nilai IPM</button>
+	<div id="uiEstimateHDI" class="result">	<h2></h2> </div>
+</body>
+</html>
