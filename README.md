@@ -1,6 +1,6 @@
 # Predicting HDI per Province in Indonesia
 
-This project is intended to an end-to-end Machine LEarning platform to predict HDI (or IPM in Bahasa) 
+This project is intended to an end-to-end Machine Learning platform to predict HDI (or IPM in Bahasa) 
 per Province in Indonesia using Multivariate Linear Regression.
 
 ![testt](https://user-images.githubusercontent.com/65146994/147039552-6fea203a-fec5-4dbf-8551-638f6c037187.JPG)
